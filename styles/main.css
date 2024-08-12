@@ -1,0 +1,28 @@
+.body {
+    background-color: lightblue;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.ulParent {
+    background: darkcyan;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    list-style-type: none;
+    min-height: 300px;
+}
+
+.ulChild {
+    background: darkblue;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    list-style-type: none;
+    display: flex;
+}
